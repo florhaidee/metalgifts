@@ -24,15 +24,19 @@ function Nav() {
     } else {
       return (
         <ul className="flex-row">
-          <li className="mx-1">
-            <Link to="/signup">
-              Signup
-            </Link>
+          <li className="mx-2 my-2">
+            <h4>
+              <Link to="/signup">
+                Signup
+              </Link>
+            </h4>
           </li>
-          <li className="mx-1">
-            <Link to="/login">
-              Login
-            </Link>
+          <li className="mx-2 my-2">
+            <h4>
+              <Link to="/login">
+                Login
+              </Link>
+            </h4>
           </li>
         </ul>
       );
@@ -41,12 +45,9 @@ function Nav() {
 
   return (
     <header className="flex-row px-1">
-      <h1>
-        <Link to="/">
-          <img src='/images/Logo.png' alt="icon" />
-           Steel Gifts c.m
-        </Link>
-      </h1>
+      <Link to="/">
+        <img src='https://github.com/florhaidee/metalgifts/blob/master/client/public/Logo.png?raw=true' alt="icon" />
+      </Link>
 
       <nav>
         {showNavigation()}
