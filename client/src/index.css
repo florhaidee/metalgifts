@@ -198,6 +198,10 @@ input:focus {
   padding-bottom: var(--spacing-two);
 }
 
+.nav {
+  margin: 2 rem;
+}
+
 .card {
   width: 25%;
   text-align: center;

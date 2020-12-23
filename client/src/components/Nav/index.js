@@ -24,14 +24,14 @@ function Nav() {
     } else {
       return (
         <ul className="flex-row">
-          <li className="mx-2 my-2">
+          <li className="mx-1">
             <h4>
               <Link to="/signup">
                 Signup
               </Link>
             </h4>
           </li>
-          <li className="mx-2 my-2">
+          <li className="mx-1">
             <h4>
               <Link to="/login">
                 Login
