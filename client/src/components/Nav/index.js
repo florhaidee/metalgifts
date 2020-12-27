@@ -24,14 +24,14 @@ function Nav() {
     } else {
       return (
         <ul className="flex-row">
-          <li className="mx-1 my-1">
+          <li className="mx-2 my-2">
             <h4>
               <Link to="/signup">
                 Signup
               </Link>
             </h4>
           </li>
-          <li className="mx-1 my-1">
+          <li className="mx-2 my-2">
             <h4>
               <Link to="/login">
                 Login
@@ -45,7 +45,7 @@ function Nav() {
 
   return (
     <header className="flex-row px-2 py-2">
-      <h1 className="mx-2 my-2">
+      <h1 className="myTitle mx-1 my-1">
         <Link to="/">
           Steel Gifts cm
         </Link>

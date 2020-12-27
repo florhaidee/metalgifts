@@ -28,6 +28,20 @@ body {
   color: var(--dark);
 }
 
+@font-face {
+  font-family: myTitleFont;
+  src: local(oatlander), url(../src/assets/font/oatlander.otf), url(../src/assets/font/oatlander.ttf);
+  font-weight: bold;
+}
+
+.myTitle {
+  font-family:myTitleFont;
+  font-size: 4rem;
+}
+.myTitle a:hover {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
