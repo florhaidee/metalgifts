@@ -29,7 +29,7 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <Router>
-        <div>
+        <div className="background-image">
           <Provider store={store}>
             <Nav />
             <Switch>

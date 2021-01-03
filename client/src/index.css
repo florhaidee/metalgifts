@@ -159,6 +159,16 @@ input:focus {
   margin-right: auto;
 }
 
+.background-image {
+  background-image: url("../src/assets/backgroundGray.png");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: auto;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
