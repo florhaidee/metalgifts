@@ -160,7 +160,7 @@ input:focus {
 }
 
 .background-image {
-  background-image: url("../src/assets/backgroundGray.png");
+  background-image: url("../src/assets/background2.png");
   background-repeat: no-repeat;
   object-fit: cover;
   width: auto;
